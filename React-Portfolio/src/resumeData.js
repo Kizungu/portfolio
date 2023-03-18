@@ -72,7 +72,7 @@ let resumeData = {
       "skillname":"MongoDB"
     },
     {
-      "skillname":"Cloud Computing"
+      "skillname":"Cloud-Computing"
     }
   ],
   "portfolio":[

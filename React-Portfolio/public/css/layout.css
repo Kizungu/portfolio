@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -350,7 +350,7 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.mysqlse{
+.mysql{
    width: 85%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
@@ -360,7 +360,7 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.cloudcomputing{
+.cloud-computing{
    width: 65%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
