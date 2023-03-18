@@ -12,7 +12,7 @@ export default  class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              {/* {
+              {
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
                     <div className="row item">
