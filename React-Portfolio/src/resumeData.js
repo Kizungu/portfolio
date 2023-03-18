@@ -17,7 +17,7 @@ let resumeData = {
       },
   
     ],
-  "aboutme":"I am currently a pre-final year student at Maharishi International University and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+  "aboutme":"I am currently doing my last on-campus course of Masters of computer science professionals at Maharishi International University . I am a self taught Back end Java Developer, currently diving deeper into Cloud computing. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
   "address":"USA,Iowa,FairField",
  
   "education":[  
