@@ -74,19 +74,20 @@ let resumeData = {
   ],
   "portfolio":[
     {
-      "name":"project1",
-      "description":"Student-Reward-Application",
+      "name":"Student-Reward-Application",
+      "description":"",
+      "imgurl":"/images/portfolio/pic.jpg"
   
     },
     {
-      "name":"project2",
-      "description":"Student Registration",
-    
+      "name":"Student Registration",
+      "description":"Registrating students based on the course prerequisite requirement",
+      "imgurl":"/images/portfolio/registration.jpg"
     },
     {
-      "name":"project3",
-      "description":"Telephone Company Database",  
-     
+      "name":"Telephone Company Database",
+      "description":"Storing all of customers data",  
+      "imgurl":"/images/portfolio/Tel.jpg"
     },
     
   ]
