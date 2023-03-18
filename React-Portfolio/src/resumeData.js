@@ -54,7 +54,22 @@ let resumeData = {
       "skillname":"CSS"
     },
     {
-      "skillname":"SpringBoots and MicroService"
+      "skillname":"Java"
+    },
+    {
+      "skillname":"Intellij"
+    },
+    {
+      "skillname":"Eclipse"
+    },
+    {
+      "skillname":"MySql"
+    },
+    {
+      "skillname":"MongoDB"
+    },
+    {
+      "skillname":"Cloud Computing"
     }
   ],
   "portfolio":[
