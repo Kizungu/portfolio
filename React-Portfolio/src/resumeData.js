@@ -1,7 +1,10 @@
 let resumeData = {
   "name": "Serapie Tuyishimire",
   "role": "Java Developer",
-  "linkedinId":"Your LinkedIn Id",
+  "linkedinId":"https://www.linkedin.com/in/serapie-tuyishimire",
+  "phone": "000-000-0000",
+  "email": "stuyishimire@miu.edu",
+
 
   "roleDescription": "I like dabbling in various parts of backend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
   "socialLinks":[
