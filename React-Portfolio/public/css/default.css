@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -805,3 +805,69 @@ properly.
 
 
 
+.photo{
+   width: 450px;
+   height: 450px;
+   border-radius: 50%;
+   border: 4px solid rgb(73, 45, 7);
+   object-fit: cover;
+   box-shadow: 0px 0px 48px 1px rgba(129, 68, 10, 0.507);
+}
+
+
+.swing {
+   -webkit-transform-origin: top center;
+   -ms-transform-origin: top center;
+   transform-origin: top center;
+   -webkit-animation-name: swing;
+   animation-name: swing;
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   }
+   @-webkit-keyframes swing {
+   20% {
+   -webkit-transform: rotate3d(0, 0, 1, 15deg);
+   transform: rotate3d(0, 0, 1, 15deg);
+   }
+   40% {
+   -webkit-transform: rotate3d(0, 0, 1, -10deg);
+   transform: rotate3d(0, 0, 1, -10deg);
+   }
+   60% {
+   -webkit-transform: rotate3d(0, 0, 1, 5deg);
+   transform: rotate3d(0, 0, 1, 5deg);
+   }
+   80% {
+   -webkit-transform: rotate3d(0, 0, 1, -5deg);
+   transform: rotate3d(0, 0, 1, -5deg);
+   }
+   100% {
+   -webkit-transform: rotate3d(0, 0, 1, 0deg);
+   transform: rotate3d(0, 0, 1, 0deg);
+   }
+   }
+   @keyframes swing {
+   20% {
+   -webkit-transform: rotate3d(0, 0, 1, 15deg);
+   transform: rotate3d(0, 0, 1, 15deg);
+   }
+   40% {
+   -webkit-transform: rotate3d(0, 0, 1, -10deg);
+   transform: rotate3d(0, 0, 1, -10deg);
+   }
+   60% {
+   -webkit-transform: rotate3d(0, 0, 1, 5deg);
+   transform: rotate3d(0, 0, 1, 5deg);
+   }
+   80% {
+   -webkit-transform: rotate3d(0, 0, 1, -5deg);
+   transform: rotate3d(0, 0, 1, -5deg);
+   }
+   100% {
+   -webkit-transform: rotate3d(0, 0, 1, 0deg);
+   transform: rotate3d(0, 0, 1, 0deg);
+   }
+   }
+ 
