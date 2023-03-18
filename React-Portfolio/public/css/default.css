@@ -868,4 +868,7 @@ properly.
    transform: rotate3d(0, 0, 1, 0deg);
    }
    }
- 
+ .conctact{
+   color: #8B9798;
+   font-size: 12px;
+ }
