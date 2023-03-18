@@ -23,7 +23,7 @@ let resumeData = {
   "education":[  
     {
       "UniversityName":"Maharishi International University",
-      "specialization":"Computer Science Professionals",
+      "specialization":" Masters of Computer Science Professionals",
       "MonthOfPassing":"April",
       "YearOfPassing":"2023"
     }
