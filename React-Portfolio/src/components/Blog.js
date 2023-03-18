@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class Testimonials extends Component {
+export default class Blog extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -7,22 +7,22 @@ export default class Testimonials extends Component {
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">
-              <h1><span>Client Testimonials</span></h1>
+              <h1><span>My Blog </span></h1>
             </div>
             <div className="ten columns flex-container">
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
+                    resumeData.blog && resumeData.blog.map((item)=>{
                       return(
                         <li>
-                          <blockquote>
-                            <p>
-                            {item.description}
-                            </p>
-                            <cite>{item.name}</cite>
-                          </blockquote>
+                          <div className='blogItem'>
+                            <img src={item.img} alt="" className="blogImg"/>
+                             <a href={item.url} className="blogTitle"><p> {item.title}</p></a> 
+                           
+                          </div>
                         </li>
+                        
                       )
                     })
                   }

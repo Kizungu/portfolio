@@ -31,6 +31,19 @@ let resumeData = {
       "YearOfPassing":"2023"
     }
   ],
+
+  "blog":[
+    {
+      "title":"Blog1",
+      "img":"/images/header-background.jpg",
+      "url":"https://github.com/Kizungu/portfolio/blob/main/blog%20(1).pdf"
+  },
+  {
+    "title":"Blog2",
+    "img":"/images/header-background.jpg",
+    "url":"https://github.com/Kizungu?tab=repositories"
+},
+],
   
   "work":[
     {
