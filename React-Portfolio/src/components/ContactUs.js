@@ -16,7 +16,7 @@ export default class ContactUs extends Component {
               <div className="widget">
                 <h4>Email : <span className="conctact">{resumeData.email}</span></h4>
                 <h4>Phone :  <span className="conctact">{resumeData.phone}</span></h4>
-                <h4>Linked in :  <span className="conctact">{resumeData.linkedinId}</span></h4>
+                <h4>Linked in :  <span className="conctact"><a href={resumeData.linkedinId}>serapie-tuyishimire</a></span></h4>
               </div>
             </aside>
           </div>
