@@ -1,56 +1,47 @@
 let resumeData = {
-  "imagebaseurl":"https://rbhatia46.github.io/",
-  "name": "Serape Tuyishimire",
+  "name": "Serapie Tuyishimire",
   "role": "Java Developer",
   "linkedinId":"Your LinkedIn Id",
-  "skypeid": "Your skypeid",
+
   "roleDescription": "I like dabbling in various parts of backend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
   "socialLinks":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+        "url":"www.linkedin.com/in/serapie-tuyishimire",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"http://github.com/rbhatia46",
+        "url":"https://github.com/Kizungu?tab=repositories",
         "className":"fa fa-github"
       },
-    
+  
     ],
   "aboutme":"I am currently a pre-final year student at Maharishi International University and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
   "address":"USA,Iowa,FairField",
-  "website":"https://rbhatia46.github.io",
-  "education":[
+ 
+  "education":
     {
       "UniversityName":"Maharishi International University",
       "specialization":"Computer Science Professionals",
       "MonthOfPassing":"April",
-      "YearOfPassing":"2023",
-      "Achievements":"Some Achievements"
+      "YearOfPassing":"2023"
     },
-    {
-      "UniversityName":"Some University",
-      "specialization":"Some specialization",
-      "MonthOfPassing":"Jan",
-      "YearOfPassing":"2018",
-      "Achievements":"Some Achievements"
-    }
-  ],
+  
   "work":[
     {
-      "CompanyName":"Some Company",
-      "specialization":"Some specialization",
+      "CompanyName":"TROPICAL SKIES",
+      "specialization":"Java Developer",
       "MonthOfLeaving":"Jan",
-      "YearOfLeaving":"2018",
-      "Achievements":"Some Achievements"
+      "YearOfLeaving":"2016",
+      "Achievements":"Designed and developed systems for the health care industry through all phases of the software development life cycle. "
     },
     {
-      "CompanyName":"Some Company",
-      "specialization":"Some specialization",
+      "CompanyName":"Promuex",
+      "specialization":"Java Developer",
       "MonthOfLeaving":"Jan",
       "YearOfLeaving":"2018",
-      "Achievements":"Some Achievements"
+      "Achievements":"Managed design of enterprise software for student information system in full stack Java with Agile / Scrum software development methodology"
     }
   ],
   "skillsDescription":"Your skills here",
@@ -62,41 +53,28 @@ let resumeData = {
       "skillname":"CSS"
     },
     {
-      "skillname":"Reactjs"
+      "skillname":"SpringBoots and MicroService"
     }
   ],
   "portfolio":[
     {
       "name":"project1",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
+      "description":"Student-Reward-Application",
+  
     },
     {
       "name":"project2",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/project.jpg"
+      "description":"Student Registration",
+    
     },
     {
       "name":"project3",
-      "description":"mobileapp",  
-      "imgurl":"images/portfolio/project2.png"
+      "description":"Telephone Company Database",  
+     
     },
-    {
-      "name":"project4",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
-    }
-  ],
-  "testimonials":[
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    },
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    }
+    
   ]
+
 }
 
 export default resumeData
