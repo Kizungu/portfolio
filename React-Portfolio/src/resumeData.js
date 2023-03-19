@@ -35,7 +35,7 @@ let resumeData = {
   "blog":[
     {
       "title":"Blog1",
-      "img":"/images/header-background.jpg",
+      "img":"/images/header1-background.jpg",
       "url":"https://github.com/Kizungu/portfolio/blob/main/blog%20(1).pdf"
   },
   {
