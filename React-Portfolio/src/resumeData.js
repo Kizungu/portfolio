@@ -34,15 +34,11 @@ let resumeData = {
 
   "blog":[
     {
-      "title":"Blog1",
+      "title":"what is aws Rekognition? ",
       "img":"/images/header1-background.jpg",
       "url":"https://github.com/Kizungu/portfolio/blob/main/blog%20(1).pdf"
   },
-  {
-    "title":"Blog2",
-    "img":"/images/header-background.jpg",
-    "url":"https://github.com/Kizungu?tab=repositories"
-},
+  
 ],
   
   "work":[
