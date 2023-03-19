@@ -18,7 +18,7 @@ export default class Blog extends Component {
                         <li>
                           <div className='blogItem'>
                             <img src={item.img} alt="" className="blogImg"/>
-                             <a href={item.url} className="blogTitle"><p> {item.title}</p></a> 
+                             <a href={item.url} target="_blank" rel="noopener noreferrer" className="blogTitle"><p> {item.title}</p></a> 
                            
                           </div>
                         </li>
