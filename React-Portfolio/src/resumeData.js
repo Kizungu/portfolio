@@ -36,7 +36,7 @@ let resumeData = {
     {
       "title":"what is aws Rekognition? ",
       "img":"/images/header1-background.jpg",
-      "url":"https://github.com/Kizungu/portfolio/blob/main/blog%20(1).pdf"
+      "url":"https://github.com/Kizungu/Myblog"
   },
   
 ],
