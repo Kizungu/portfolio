@@ -9,9 +9,9 @@ export default class Porfolio extends Component {
           <h1>Check Out Some of My Works.</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            resumeData.portfolio && resumeData.portfolio.map((item , index)=>{
               return(
-                <div className="columns portfolio-item">
+                <div key={index} className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01">
                       <img src={`${item.imgurl}`} alt="" className="item-img"/>

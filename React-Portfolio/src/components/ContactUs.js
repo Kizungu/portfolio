@@ -1,7 +1,26 @@
-import React, { Component } from 'react';
-export default class ContactUs extends Component {
+import React, { Component} from 'react';
+import axios from 'axios';
+
+export default class ContactUs extends Component { 
+    state ={
+      fullname:"", 
+      email:"", 
+      subject:"", 
+      message:""
+    }
+
+
+  handleSubmit = (event)=>{
+    event.preventDefault();
+    axios.post("", this.state)
+};
+handleChange = (event)=>{
+  const {name, value} = event.target;
+    this.setState({[name]:value})
+}
+
   render() {
-    let resumeData = this.props.resumeData;
+
     return (
       <section id="contact">
           <div className="row section-head">
@@ -12,13 +31,17 @@ export default class ContactUs extends Component {
             </div>
           </div>
           <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>Email : <span className="conctact">{resumeData.email}</span></h4>
-                <h4>Phone :  <span className="conctact">{resumeData.phone}</span></h4>
-                <h4>Linked in :  <span className="conctact"><a href={resumeData.linkedinId}>serapie-tuyishimire</a></span></h4>
-              </div>
-            </aside>
+          <form className="form" onClick={this.handleSubmit}>
+
+                <div className="input-wrapper">
+                  <input type="text"   className="form-input" name="fullname" value={this.state.fullname} placeholder="Full name" onChange={this.handleChange} />
+                  <input type="email"  className="form-input"  placeholder="Email address" name='email' value={this.state.email} onChange={this.handleChange} />
+                </div>
+                <input type="text"  className="form-input"  placeholder="Subject" name='subject' value={this.state.subject} onChange={this.handleChange} /><br/>
+                <textarea  className="form-input"  placeholder="Your Message" name='message' value={this.state.message} onChange={this.handleChange} ></textarea>
+                <button className="form-btn" type="submit">Send Message</button>
+
+            </form>
           </div>
         </section>
         );

@@ -872,3 +872,23 @@ properly.
    color: #8B9798;
    font-size: 15px;
  }
+ 
+.form-input{  
+color: #f5f2f2 !important;
+background:none !important;
+border-bottom: 1px solid white !important;
+}
+.form-input:focus{
+   background-color: white!important;
+color: #000 !important;
+}
+
+ .form-btn{
+   background-color: #313131 !important;
+ }
+
+ .form-input::placeholder{  
+   color: #fdfafa !important;
+   font-weight: bolder;
+   
+   }

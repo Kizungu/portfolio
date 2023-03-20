@@ -13,9 +13,9 @@ export default class Blog extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.blog && resumeData.blog.map((item)=>{
+                    resumeData.blog && resumeData.blog.map((item, index)=>{
                       return(
-                        <li>
+                        <li key={index}>
                           <div className='blogItem'>
                             <img src={item.img} alt="" className="blogImg"/>
                              <a href={item.url} target="_blank" rel="noopener noreferrer" className="blogTitle"><p> {item.title}</p></a> 
