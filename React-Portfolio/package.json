@@ -22,5 +22,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "proxy":"https://gbrw0gnkx5.execute-api.us-east-1.amazonaws.com"
 }
