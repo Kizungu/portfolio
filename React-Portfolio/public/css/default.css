@@ -874,7 +874,7 @@ properly.
  }
  
 .form-input{  
-
+position: relative;
    color: #f5f2f2 !important;
    background:none !important;
    border-bottom: 1px solid white !important;
@@ -896,7 +896,9 @@ properly.
    }
    .form-input:focus::placeholder{  
       color: #504f4f !important;
-      
-      
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: .5s;
       }
      
