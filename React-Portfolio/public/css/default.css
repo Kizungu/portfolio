@@ -874,13 +874,15 @@ properly.
  }
  
 .form-input{  
-color: #f5f2f2 !important;
-background:none !important;
-border-bottom: 1px solid white !important;
+
+   color: #f5f2f2 !important;
+   background:none !important;
+   border-bottom: 1px solid white !important;
 }
 .form-input:focus{
-   background-color: white!important;
-color: #000 !important;
+   background-color: #191919 !important;
+   color: #faf2f2 !important;
+   border: 1px solid white !important;
 }
 
  .form-btn{
@@ -892,3 +894,9 @@ color: #000 !important;
    font-weight: bolder;
    
    }
+   .form-input:focus::placeholder{  
+      color: #504f4f !important;
+      
+      
+      }
+     
